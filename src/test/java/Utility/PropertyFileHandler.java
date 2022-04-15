@@ -26,7 +26,7 @@ public class PropertyFileHandler {
     }
     //This method is used to read the property file.
     public static String readProperty(String key) {
-        System.out.println(key);
+//        System.out.println(key);
         return Prop.getProperty(key);
     }
     //This method is used to write to the property file.
