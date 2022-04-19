@@ -1,6 +1,6 @@
 package TestCases;
 
-import PageObjects.POCheckBoxFileSlection;
+import PageObjects.POCheckBoxFileSlection ;
 
 import java.io.IOException;
 
