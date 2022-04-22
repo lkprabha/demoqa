@@ -1,7 +1,7 @@
 package Runner;
 
 
-import TestCases.TestCheckBoxFileSelection;
+import TestCases.TestRadioButtons;
 import Utility.PropertyFileHandler;
 import Utility.WebDriverHelper;
 import io.cucumber.junit.Cucumber;
@@ -24,7 +24,8 @@ public class RunnerClass {
         //TestCases
 
         // TestUserRegistration.testCaseNumber1();
-         TestCheckBoxFileSelection.testCaseNumber2();
+         //TestCheckBoxFileSelection.testCaseNumber2();
+        TestRadioButtons.testCaseNumber3();
 
         //TearDown
         System.out.println("Test Suite Complete!!");
